@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-pink-900 from-10% to-[#4036A9] to-90%`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('/bg-image.svg')] bg-cover bg-center bg-no-repeat h-full w-full`}
       >
         <div className="logoImage">
           <Image
