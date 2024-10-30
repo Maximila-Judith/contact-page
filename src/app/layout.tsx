@@ -30,14 +30,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('/bg-image.svg')] bg-cover bg-center bg-no-repeat h-full w-full`}
       >
-        <div className="logoImage">
+        <div className="logoImage pl-20">
           <Image
             src="/contact-form-icon.svg"
             alt="icon 1"
-            width={200}
-            height={200}
+            width={110}
+            height={110}
             priority
-            className="p-5"
+            className="pt-6"
           />
         </div>
         {children}
